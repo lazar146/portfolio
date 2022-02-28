@@ -1,0 +1,528 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #98e45a;
+  outline: 2px;
+  border-radius: 10px;
+  outline: 1px solid #191919;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px black;
+          box-shadow: inset 0 0 6px black;
+  background-color: #585858;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.centerblock {
+  width: 80%;
+  margin: 0px auto;
+}
+
+header {
+  background-color: #191919;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+header #nav {
+  text-align: center;
+}
+
+header #nav ul {
+  text-decoration: none;
+  padding: 0.5%;
+}
+
+header #nav ul li {
+  display: inline;
+  padding: 0% 4%;
+}
+
+header #nav ul li a {
+  text-decoration: none;
+  color: #585858;
+  font-size: 25px;
+}
+
+header #nav ul li a:hover {
+  color: #98e45a;
+}
+
+#pozadina {
+  background-image: url(pozadina.jpg);
+  background-repeat: no-repeat;
+  height: 70%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#pozadina h1 {
+  padding: 16% 0%;
+  color: #98e45a;
+  position: relative;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: an1;
+          animation-name: an1;
+}
+
+@-webkit-keyframes an1 {
+  0% {
+    top: -400px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes an1 {
+  0% {
+    top: -400px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+#about {
+  background-color: #585858;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+#about h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#about #zablokove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#about #zablokove #slika img {
+  width: 100%;
+  height: 100%;
+}
+
+#about #zablokove hr {
+  border-color: #98e45a;
+  background-color: #98e45a;
+  width: 2px;
+}
+
+#about #zablokove #tekst {
+  width: 25%;
+  padding: 3%;
+  text-align: center;
+}
+
+#about #zablokove #tekst h3 {
+  font-size: 30px;
+  color: #98e45a;
+}
+
+#about #zablokove #tekst p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#servisi {
+  background-color: #191919;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#servisi h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#servisi #za3bloka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+#servisi #za3bloka .sblok {
+  padding: 1%;
+  text-align: center;
+  width: 30%;
+  background-color: #7c7c7c;
+  word-break: break-all;
+  border-radius: 10px;
+}
+
+#servisi #za3bloka .sblok h3 {
+  font-size: 25px;
+}
+
+#servisi #za3bloka .sblok:hover {
+  border-radius: 15px;
+  width: 31%;
+}
+
+#servisi #za3bloka .sblok:hover i {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#servisi #za3bloka .sblok i {
+  font-size: 40px;
+  color: #98e45a;
+}
+
+#servisi #za3bloka .sblok p {
+  font-size: 20px;
+}
+
+#projekti {
+  background-color: #191919;
+  width: 100%;
+  padding: 3% 0;
+}
+
+#projekti h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#projekti #zapr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+#projekti #zapr #blokpr {
+  padding: 1%;
+  text-align: center;
+  width: 36%;
+}
+
+#projekti #zapr #blokpr img {
+  width: 100%;
+  height: 100%;
+}
+
+#projekti #zapr #blokpr:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#projekti #zapr #blokpr .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #98e45a;
+  color: #7c7c7c;
+  font-size: 20px;
+}
+
+#projekti #zapr #blokpr .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#projekti #zapr #blokpr .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #585858;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  font-size: 15px;
+}
+
+#projekti #zapr #blokpr2 {
+  padding: 1%;
+  text-align: center;
+  width: 36%;
+}
+
+#projekti #zapr #blokpr2 img {
+  width: 100%;
+  height: 100%;
+}
+
+#projekti #zapr #blokpr2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#projekti #zapr #blokpr2 .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #98e45a;
+  color: #7c7c7c;
+  font-size: 20px;
+}
+
+#projekti #zapr #blokpr2 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#projekti #zapr #blokpr2 .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #585858;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  font-size: 15px;
+}
+
+#skills {
+  background-color: #585858;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#skills h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#skills #zaskilove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#skills #zaskilove .skilblokovi {
+  width: 45%;
+  background-color: #191919;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+#skills #zaskilove .skilblokovi meter {
+  width: 100%;
+  margin-bottom: 0.5%;
+}
+
+#skills #zaskilove .skilblokovi h4 {
+  font-size: 17px;
+  color: #98e45a;
+}
+
+#contact {
+  background-color: #191919;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#contact h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#contact hr {
+  border-color: #98e45a;
+  background-color: #98e45a;
+  width: 2px;
+}
+
+#contact #zaformu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#contact #zaformu #forma {
+  width: 60%;
+  background-color: #585858;
+  border-radius: 10px;
+}
+
+#contact #zaformu #forma form {
+  margin: 20px auto;
+  width: 95%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px auto;
+  padding: 20px;
+  background-clip: content-box;
+  float: left;
+}
+
+#contact #zaformu #forma form label {
+  color: #98e45a;
+}
+
+#contact #zaformu #forma form ::-webkit-input-placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma form :-ms-input-placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma form ::-ms-input-placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma form ::placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma #ime {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma #prezime {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma #mejl {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma #pisi {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 19px;
+  resize: vertical;
+  font-size: 15px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma form label {
+  font-size: 30px;
+}
+
+#contact #zaformu #forma #dugme {
+  background-color: #191919;
+  color: #7c7c7c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 25px;
+  border-radius: 5px;
+  border-color: white;
+  padding: 5px;
+}
+
+#contact #zaformu #forma #dugme:hover {
+  background-color: #98e45a 4, 87, 4;
+  color: #98e45a;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-color: #98e45a;
+}
+
+#contact #zaformu #info {
+  width: 35%;
+  background-color: #585858;
+  border-radius: 10px;
+  text-align: center;
+  word-break: break-all;
+}
+
+#contact #zaformu #info h3 {
+  font-size: 30px;
+  color: #98e45a;
+  margin-top: 3%;
+}
+
+#contact #zaformu #info #top {
+  margin-top: 23%;
+}
+
+#contact #zaformu #info p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #191919;
+}
+
+footer h4 {
+  color: #98e45a;
+  font-size: 19px;
+  padding: 2%;
+}
+
+footer #bold {
+  font-weight: bolder;
+  color: #7c7c7c;
+}
+
+footer #mreze i {
+  font-size: 30px;
+  color: #98e45a;
+  padding: 1.9%;
+}
+
+footer #mreze i:hover {
+  color: #7c7c7c;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+footer a {
+  text-decoration: none;
+  color: #7c7c7c;
+  font-size: 17px;
+  padding: 0px 5px;
+}
+
+footer aa:hover {
+  color: #98e45a;
+}
+/*# sourceMappingURL=style.css.map */
