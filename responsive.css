@@ -194,11 +194,18 @@
       }
 }
 @media screen and (max-width:321px){
+
     #contact #zaformu #forma form{
         padding-left: 15px;
         padding-right: 0px;
     }
     #about #zablokove #slika img {
         margin-left: 60px;
+    }
+    #projekti #zapr #blokpr .tooltip .tooltiptext {
+        margin-left: -20px;
+    }
+    #projekti #zapr #blokpr2 .tooltip .tooltiptext {
+        margin-left: -20px;
     }
 }
