@@ -192,6 +192,9 @@
       #contact #zaformu #forma form label {
         font-size: 20px;
       }
+      footer h4{
+        font-size: 12px;
+      }
 }
 @media screen and (max-width:321px){
 
