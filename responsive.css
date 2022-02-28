@@ -35,6 +35,9 @@
     header #nav ul li a {
         font-size: 18px;
       }
+    #servisi #za3bloka .sblok{
+        margin: 10px;
+      }
     #pozadina{
         height: 40%;
     }
@@ -145,6 +148,10 @@
 @media screen and (max-width:426px){
     #servisi #za3bloka .sblok {
         width: 80%;
+    }
+    #contact #zaformu #forma form{
+        padding-left: 15px;
+        padding-right: 0px;      
     }
     #pozadina{
         height: 23%;

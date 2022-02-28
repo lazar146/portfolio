@@ -183,7 +183,8 @@ header #nav ul li a:hover {
 
 #servisi #za3bloka .sblok:hover {
   border-radius: 15px;
-  width: 31%;
+  -webkit-transform: scale(1.050);
+          transform: scale(1.050);
 }
 
 #servisi #za3bloka .sblok:hover i {
