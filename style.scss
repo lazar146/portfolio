@@ -28,6 +28,9 @@ $malosvetlijasiva: rgb(124, 124, 124);
     text-align: center;
     width: 36%;
 }
+html {
+    scroll-behavior: smooth;
+}
 body::-webkit-scrollbar {
     width: 1em;
 }    
