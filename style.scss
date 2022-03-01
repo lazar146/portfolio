@@ -53,7 +53,7 @@ body{
     margin: 0px auto;
 }
 header{
-    background-color: $tamnosiva;
+    background-color: $malosvetlijasiva;
     position: sticky;
     top: 0px;
     z-index: 1000;
@@ -67,7 +67,7 @@ header{
                        padding: 0% 4%;
                         a{
                             text-decoration: none;
-                            color: $svetlosiva;
+                            color: $tamnosiva;
                             font-size: 25px;
                             &:hover{
                                 color: $svetlozlena;
@@ -157,10 +157,11 @@ header{
             border-radius: 10px;
                 h3{
                   font-size: 25px;
+                  margin: 13px 0;
                 }
                 &:hover{
                     border-radius: 15px;
-                    transform: scale(1.05);
+                    transform: scale(1.04);
 
                         i{   
                             -webkit-transition: all 0.6s ease-in-out;
@@ -193,13 +194,20 @@ header{
         @extend #nasl;
         @include naslovi;
         }
+        h3{
+            @include naslovi;
+            font-size: 25px;
+        }
+        h4{
+            color: $malosvetlijasiva;
+            font-size: 18px;
+        }
         #zapr{
         display: flex;
         justify-content: space-around;
             #blokpr{
                 img{
                     width: 100%;
-                    height: 100%
                 }
                 @include zapr;
                     &:hover{
@@ -231,7 +239,6 @@ header{
             #blokpr2{
                 img{
                     width: 100%;
-                    height: 100%
                 }
                 @include zapr;
                 &:hover{
@@ -326,6 +333,7 @@ header{
                     height: 30px;
                     margin-bottom: 15px;
                     background-color: $malosvetlijasiva;
+                    border-radius: 10px;
                    
             }
             #prezime{
@@ -333,12 +341,14 @@ header{
                     height: 30px;
                     margin-bottom: 15px;
                     background-color: $malosvetlijasiva;
+                    border-radius: 10px;
             }
             #mejl{
                 width: 100%;
                 height: 30px;
                 margin-bottom: 15px;
                 background-color: $malosvetlijasiva;
+                border-radius: 10px;
         }
             #pisi{
                     width: 100%;
@@ -348,15 +358,16 @@ header{
                     font-size: 15px;
                     margin-bottom: 15px;
                     background-color: $malosvetlijasiva;
+                    border-radius: 10px;
             }
             form label{
-                    font-size: 30px;
+                    font-size: 25px;
             }
             #dugme{
                     background-color: $tamnosiva;
                     color: $malosvetlijasiva;
                     transition: 0.5s;
-                    font-size: 25px;
+                    font-size: 20px;
                     border-radius: 5px;
                     border-color: white;
                     padding: 5px;

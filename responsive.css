@@ -28,13 +28,15 @@
           padding: 5px;
       }
 }
-@media screen and (max-width:769px){
+@media screen and (max-width:880px){
+    #about #zablokove #slika img {
+        margin-left: 2%;
+      }  
+}
+@media screen and (max-width:770px){
     .centerblock{
         width: 90%;
-    }
-    #about #zablokove #slika img {
-        margin-left: 7%;
-      }      
+    }     
     header #nav ul li a {
         font-size: 18px;
       }
@@ -66,6 +68,39 @@
       #contact #zaformu #info {
           padding: 10px;
       }
+      #contact #zaformu #info h3 {
+        font-size: 25px;
+    }
+    #contact #zaformu #info p {
+        font-size: 20px;
+    }      
+    #contact #zaformu #info #top{
+        margin-top: 33%;
+    }
+}
+@media screen and (max-width:730px){
+    #about #zablokove {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #about #zablokove hr {
+        width: 50%;
+        margin-top: 10px;
+    }
+    #about #zablokove #slika img {
+        width: 60%;
+        margin-left: 80px;
+    }
+    #about #zablokove #tekst{
+        width: 100%;
+    }
+    #about #zablokove #tekst h3{
+        font-size: 20px;
+    }
+    #about #zablokove #tekst p {
+        font-size: 15px;
+      }
+
 }
 @media screen and (max-width:426px){
     .centerblock{
@@ -106,6 +141,15 @@
       #servisi #za3bloka .sblok h3 {
         font-size: 19px;
       }
+      #projekti h3 {
+          font-size: 20px;
+      }
+      #projekti h2 {
+        font-size: 14px;
+    }
+    #servisi #nasl, #servisi #projekti h2, #projekti #servisi h2 {
+        font-size: 20px;
+    }
       #projekti #zapr{
         display: flex;
         flex-wrap: wrap;
