@@ -110,6 +110,7 @@ header #nav ul li a:hover {
   font-size: 40px;
   color: #98e45a;
   text-align: center;
+  margin-left: -3%;
 }
 
 #about #zablokove {
@@ -123,12 +124,14 @@ header #nav ul li a:hover {
 #about #zablokove #slika img {
   width: 100%;
   height: 100%;
+  margin-left: 10%;
 }
 
 #about #zablokove hr {
   border-color: #98e45a;
   background-color: #98e45a;
   width: 2px;
+  margin-left: 1.8%;
 }
 
 #about #zablokove #tekst {
@@ -165,7 +168,7 @@ header #nav ul li a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 #servisi #za3bloka .sblok {
@@ -183,8 +186,8 @@ header #nav ul li a:hover {
 
 #servisi #za3bloka .sblok:hover {
   border-radius: 15px;
-  -webkit-transform: scale(1.050);
-          transform: scale(1.050);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #servisi #za3bloka .sblok:hover i {
@@ -221,7 +224,7 @@ header #nav ul li a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 #projekti #zapr #blokpr {
