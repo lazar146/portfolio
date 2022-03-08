@@ -32,6 +32,20 @@
     #about #zablokove #slika img {
         margin-left: 2%;
       }  
+      #servisi #za3bloka{   
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #servisi #za3bloka .sblok {
+        width: 40%;
+        margin: 3px;
+    }
+    #servisi #za3bloka .sblok p {
+      font-size: 13px;
+    }
+    #servisi #za3bloka .sblok h3 {
+      font-size: 19px;
+    }
 }
 @media screen and (max-width:770px){
     .centerblock{
